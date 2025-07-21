@@ -14,4 +14,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Running..
-              run: echo "I am running the build action in ${{github.event.inputs.enviorment}}"
+              run: echo "I am running the build action in ${{inputs.enviorment}}"
