@@ -1,0 +1,11 @@
+name: CI Template
+
+on:
+    workflow_call:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Running..
+              run: echo "I am running the build action"
