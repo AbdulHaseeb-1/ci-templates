@@ -2,6 +2,12 @@ name: CI Template
 
 on:
     workflow_call:
+        inputs:
+            enviorment:
+                description: "What is You enviorment"
+                required: true
+                type: string
+
 
 jobs:
     build:
